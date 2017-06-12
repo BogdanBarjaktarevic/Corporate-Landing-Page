@@ -1,0 +1,44 @@
+#features-section {
+	background-color: $gray-color;
+	.col-md-6 {
+		margin-top: 140px;
+		h5 {
+			text-transform: uppercase;
+		}
+	}
+	.features {
+		margin-top: 100px;
+		h4 {
+			margin-top: 35px;
+			margin-bottom: 25px;
+		}
+		p {
+			color: #939291;
+		}
+	}
+	.coffee {
+		margin-top: 95px;
+	}
+	img[src*="glif"] {
+		cursor: pointer;
+		&:hover {
+		transform: rotateY(360deg);
+		transition: 1.5s all;
+		}
+	}
+}
+
+@media (max-width: 768px){
+	 #features-section > .container > .row > .col-xs-12 {
+		margin-bottom: 50px;
+	}
+	.features > .col-md-4 {
+		margin-bottom: 30px;
+	}
+	#features-section .features h4 {
+		margin-bottom: 15px;
+	}
+	.coffee  img {
+		display: none;
+	}
+}

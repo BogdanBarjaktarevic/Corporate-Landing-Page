@@ -1,0 +1,88 @@
+#sign-up {
+	background-color: $blue-color;
+	padding-top: 100px;
+	padding-bottom: 90px;
+	h5 {
+		text-transform: uppercase;
+	}
+	h2 {
+		color: white;
+	}
+	.trial {
+		margin-top: 50px;
+		margin-bottom: 15px;
+		.col-md-3 {
+			@media (max-width: 997px) {
+				display: inline-flex;
+			}
+		}
+		p {
+			float:left;
+			margin-top: -7px;
+			color: white;
+			margin-left: 10px;
+			@media (max-width: 997px) {
+				float: none;
+			}
+		}
+		img {
+			float: left;
+			@media (max-width: 997px) {
+				float: none;
+			}
+		}
+		@media (max-width: 997px) {
+			text-align: center;
+		}
+	}
+	.input {
+		input {
+			background: #464c77;
+			@media (max-width: 997px) {
+				width: 70%;
+				margin: 0 auto;
+			}
+		}
+		::-webkit-input-placeholder {
+			color: white;
+			text-transform: uppercase;
+		}
+		textarea:focus, input:focus {
+    		color: white;
+		}
+		button {
+			display: inline-block;
+			width: 100%;
+			text-transform: uppercase;
+			background-color: $pink-color;
+			color: white;
+			padding-top: 8px;
+			padding-bottom: 8px;
+			font-size: 13px;
+			border-radius: 5px;
+			border: none;
+			&:hover {
+				text-decoration: none;
+				background-color: darken($pink-color,5%);
+			}
+			@media (max-width: 997px) {
+				width: 70%;
+				display: block;
+				margin: 0 auto;
+			}
+		}
+	}
+	.terms {
+		margin-top: 50px;
+		p {
+			color: white;
+		}
+		a {
+			color: white;
+			text-decoration: underline;
+			&:hover {
+				color: darken(white,20%);
+			}
+		}
+	}
+}

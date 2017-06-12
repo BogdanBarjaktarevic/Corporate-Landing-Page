@@ -1,0 +1,45 @@
+html,body,h1,h2,h3,h4,h5,h6,ul,li {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	color: $h1-color;
+	font-size: 60px;
+	font-family: $primary-font;
+	font-weight: 300;
+}
+h2 {
+	font-size: 40px;
+	font-family: $primary-font;
+	font-weight: 600;
+}
+h3 {
+	font-size: 23px;
+	font-family: $primary-font;
+	font-weight: 600;
+}
+h5 {
+	color: $pink-color;
+	font-family: $primary-font;
+	font-weight: 600;
+}
+h4 {
+	font-family: $primary-font;
+	font-weight: 600;
+}
+p {
+	font-family: $secondary-font;
+}
+li {
+	font-family: $secondary-font;
+}
+a {
+	font-family: $primary-font;
+}
+body {
+	font-size: 16px;
+}
+
+.red-dot {
+	color: $pink-color;
+}
